@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab-05</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+    <h1>Presupuesto Personal</h1>
+    <div class="container-form">
+        <form id="transactionForm">
+            <h2>Nueva Transacción</h2>
+            <label>Monto($):</label>
+            <input type="number" id="monto" placeholder="Ingrese el monto">
+            <label>Tipo:</label>
+            <select>
+                <option value="Ingreso">Ingreso</option>
+                <option value="Gasto">Gasto</option>
+            </select>
+            <button type="submit">Agregar Transacción</button>
+        </form>
+        
+        <form>
+                <h2>Historial de Transacciones</h2>
+                <button type="submit">Ordenar por Monto</button>
+        </form>   
+    </div>
+      
+    <script src="app.js"></script>
+</body>
+</html>
