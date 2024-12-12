@@ -4,11 +4,25 @@
     box-sizing: border-box;
   }
 
-  body {
+body {
     font-family: Helvetica, Arial, sans-serif;
     background-color: #e0e7f5;
   }
-   
+
+article {
+    display: flex
+    flex-directon: column;
+    background-color: #fafafa;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 650px;
+    gap: 15px;
+    border: solid 1px;
+    border-color: #888888;
+
+  }
   .container-form {
       display: flex;
       flex-direction: column;
@@ -17,6 +31,8 @@
       margin-top: 30px;
       gap: 20px;
   }
+
+
     
 /* Estilos generales del formulario */
 form {
@@ -51,7 +67,7 @@ input:focus, select:focus {
 button {
   width: 100%;
   padding: 12px;
-  background-color: #007bff;
+  background-color: #0073ee;
   color: white;
   border: none;
   border-radius: 5px;
@@ -66,17 +82,17 @@ button:hover {
 
 /* Estilo para botón de ordenar */
 button:last-child {
-  background-color: #28a745;
+  background-color: #0f88f8;
 }
 
 button:last-child:hover {
-  background-color: #218838;
+  background-color: #46e068;
 }
 
 /* Estilos para los labels */
 label {
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   color: #333;
 }
 
