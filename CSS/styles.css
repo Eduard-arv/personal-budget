@@ -7,6 +7,10 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
     background-color: #e0e7f5;
+    background-image: url(https://f.hubspotusercontent20.net/hubfs/2283874/gesti%C3%B3n%20de%20presupuestos%20y%20cuadro%20de%20mandos.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
 article {
@@ -101,6 +105,7 @@ label {
     text-align: center;
     margin-top: 15px;
     margin-bottom: 20px;
+    color: #1d75d4;
   }
 
   h2 {
@@ -151,4 +156,22 @@ label {
     width: 80%;
     padding: 25px;
   }
+}
+
+span {
+  display: flex
+  flex-directon: column;
+  width: 100%;
+  max-width: 650px;
+  gap: 15px;
+  
+}
+
+.card-1 {
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: #fafafa;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: solid 1px;
+  border-color: #888888;
 }
